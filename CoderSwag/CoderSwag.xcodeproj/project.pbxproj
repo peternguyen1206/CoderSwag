@@ -15,6 +15,9 @@
 		E223367921A95B2500DF3E83 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223367821A95B2500DF3E83 /* CategoryCell.swift */; };
 		E223367B21A95D3600DF3E83 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223367A21A95D3600DF3E83 /* Category.swift */; };
 		E223367E21A95EB700DF3E83 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223367D21A95EB700DF3E83 /* DataService.swift */; };
+		E223368021A97FF400DF3E83 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223367F21A97FF400DF3E83 /* ProductCell.swift */; };
+		E223368221A980F500DF3E83 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223368121A980F500DF3E83 /* Product.swift */; };
+		E223368421A9862800DF3E83 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E223368321A9862800DF3E83 /* ProductsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		E223367821A95B2500DF3E83 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		E223367A21A95D3600DF3E83 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		E223367D21A95EB700DF3E83 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		E223367F21A97FF400DF3E83 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		E223368121A980F500DF3E83 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E223368321A9862800DF3E83 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				E223367A21A95D3600DF3E83 /* Category.swift */,
+				E223368121A980F500DF3E83 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -85,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				E223366521A90A6F00DF3E83 /* CategoriesVC.swift */,
+				E223368321A9862800DF3E83 /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -93,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				E223367821A95B2500DF3E83 /* CategoryCell.swift */,
+				E223367F21A97FF400DF3E83 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,8 +188,11 @@
 				E223367E21A95EB700DF3E83 /* DataService.swift in Sources */,
 				E223366621A90A6F00DF3E83 /* CategoriesVC.swift in Sources */,
 				E223366421A90A6F00DF3E83 /* AppDelegate.swift in Sources */,
+				E223368021A97FF400DF3E83 /* ProductCell.swift in Sources */,
 				E223367921A95B2500DF3E83 /* CategoryCell.swift in Sources */,
+				E223368421A9862800DF3E83 /* ProductsVC.swift in Sources */,
 				E223367B21A95D3600DF3E83 /* Category.swift in Sources */,
+				E223368221A980F500DF3E83 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
